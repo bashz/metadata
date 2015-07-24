@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('KontrBol.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Western';
+    src: url('ds-roundup.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
