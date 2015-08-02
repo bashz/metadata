@@ -1,0 +1,11 @@
+<div>
+    <img style="float:left; width: 30%" id="img1" src="images/testexif.jpg" alt="from">
+    <div style="float:right; width: 60%; overflow-y: scroll;height: 400px; font-size: 20px;" id="meta1"></div>
+</div>
+<script>
+    document.getElementById("img1").onclick = function () {
+        EXIF.getData(this, function () {
+            document.getElementById("meta1").innerHTML = EXIF.list(this);
+        });
+    }
+</script>
